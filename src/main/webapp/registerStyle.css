@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+        body {
+            background-color: lightgoldenrodyellow;
+        }
+        fieldset {
+            /*<fieldset>範圍包住<div>，style可以套用在<fieldset>內所有元素*/
+            width: 500px;
+            margin: 15px auto;
+            border: 5px outset #acd6ff;
+            border-radius: 20px;
+            box-shadow: 5px 5px 5px grey;
+            background-color: #fff;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+
+        legend {
+            color: blue;
+            /* text-align: center; */
+            margin-left: 50px;
+            /*調整<legend>文字的位置，margin-left設定左邊間距，避免上下右的方向多出額外的間距*/
+
+        }
+
+        .st1 {
+            width: 450px;
+            /*設定寬度*/
+            border-bottom: 3px dashed #D0D0D0;
+            /*劃出一條下引線虛線*/
+            margin: 20px;
+            /*設定與browser網頁邊緣的距離*/
+            padding-bottom: 10px;
+            /*設定<input>元素與下引線的距離*/
+        }
+
+        .sub {
+            width: 450px;
+            /*設定寬度*/
+            margin: 20px auto;
+            /*設定寬線外距離*/
+            text-align: center;
+            /*設定水平置中*/
+        }
+
+        .t1 {
+            width: 120px;
+            float: left;
+            text-align: right;
+        }
+
+        #must {
+            color: red;
+            font-weight: bold;
+        }

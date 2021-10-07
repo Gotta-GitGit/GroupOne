@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聚點時刻</title>
+    <link rel="stylesheet" href="link.css">
+    <style>
+        .box{
+            height: 75px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>付款/刪除成功</h1>
+    </header>
+    <div id="container">
+        <div class="box"><button id="back"><i class="fas fa-undo-alt"></i>按此回首頁</button></div>
+    </div>
+</body>
+<script src="jquery-3.6.0.js"></script>
+<script>
+    $(function(){
+        $('#back').on('click',function(){
+            location.href = './customer.jsp'
+        })
+    })
+</script>
+</html>

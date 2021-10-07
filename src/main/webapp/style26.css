@@ -1,0 +1,19 @@
+body {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+header {
+    background: #333;
+    color: lightgreen;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}

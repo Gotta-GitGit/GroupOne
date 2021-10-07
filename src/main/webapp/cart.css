@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: lightgreen;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+    border: 3px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr td,
+th {
+    /* border: 1px solid blue; */
+    height: 50px;
+}
+
+thead {
+    background-color: rgb(248, 232, 232);
+}
+
+.itr {
+
+    border-bottom: 1px dashed black;
+}
+
+.pn {
+    width: 400px;
+}
+
+.pr {
+    width: 100px;
+}
+
+.nu {
+    width: 115px;
+}
+
+
+.tdB {
+    width: 100px;
+}
+
+.ap {
+    width: 80px;
+    border-bottom: 1px dashed black;
+}

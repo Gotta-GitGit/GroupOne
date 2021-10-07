@@ -1,0 +1,51 @@
+body {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("./Images/stone.jpg");
+    line-height: 1.5em;
+}
+
+header {
+    background-image: url("./Images/foodbanner.jpg");
+    color: darkorange ;
+    padding: 20px;
+    font-size: 240%;
+    text-align: center;
+    margin-bottom: 10px;
+} 
+fieldset {
+    width: 800px;
+    margin: auto;
+    border: 5px dashed hsl(30, 100%, 26%);
+    border-radius: 20px;
+    /* font-family: 'ZCOOL KuaiLe', cursive; */
+    background-color:#F2E6E6;
+}
+legend {
+    color:#336666;
+    margin:20px;
+    /* padding-top: 10px; */
+    font-size: 180%;
+    text-align: center;      
+}
+.st1 {
+     width:750px;
+     border-bottom: 3px dashed #D8D8EB;
+     margin:20px;
+     padding-bottom:10px;
+}
+.ps {
+    color: gray;
+    font-size: smaller;
+}
+.t1 {
+    width:100px;
+    float:left;
+    /* text-align:right; */
+ }
+ .sub {
+    width:750px;
+    padding-top: 20px;
+    margin:auto;
+    text-align:center;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聚點時刻</title>
+    <style>
+        .box {
+            width: 300px;
+            margin: 20px auto;
+            border: 2px solid gray;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+	<div class="box" style="text-align: right;">
+        <form action="./TestLogin" method="POST">
+            <input type="submit" name="login" value="登入">
+        </form>
+    </div>
+    <div class="box" style="text-align: center;">
+        <form action="./WatchAllCartServlet" method="POST">
+            <input type="submit" name="cart" value="購物車">
+            <input type="submit" name="select" value="歷史紀錄">
+        </form>
+    </div>
+    <div class="box">
+        <form action="./ShoppingCartServlet" method="POST">
+            <div> <label for="">產品名稱</label>
+                <input type="text" name="productName" value="AAA">
+            </div>
+            <div>
+                <label for="">　價格　</label>
+                <input type="text" name="price" value="100">
+            </div>
+            <div>
+                <label for="">　數量　</label>
+                <input type="text" name="number" value="3">
+            </div>　
+            <select name="type" id="">
+                <option value="food">food</option>
+                <option value="coupon">coupon</option>
+            </select>
+            <input type="submit" name="sumbit" value="送出">
+    </form>
+    </div>
+</body>
+
+</html>
